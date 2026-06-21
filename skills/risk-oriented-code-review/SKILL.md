@@ -1,6 +1,11 @@
 ---
 name: risk-oriented-code-review
-description: Use this skill to perform a second-layer code review on the current diff. It focuses on changes that appear to work now but may create future problems: hidden side effects, compatibility breaks, boundary cases, performance risks, security risks, misleading naming, insufficient tests, and long-term maintenance cost.
+description: >-
+  Use this skill to perform a second-layer code review on the current diff.
+  It focuses on changes that appear to work now but may create future problems,
+  including hidden side effects, compatibility breaks, boundary cases,
+  performance risks, security risks, misleading naming, insufficient tests,
+  and long-term maintenance cost.
 ---
 
 # Risk-Oriented Code Review
