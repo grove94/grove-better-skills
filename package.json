@@ -1,0 +1,22 @@
+{
+  "name": "skills",
+  "version": "0.1.0",
+  "description": "Install bundled Codex/Cloud-compatible skills with npx.",
+  "license": "MIT",
+  "bin": {
+    "skills": "bin/skills.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "check": "node --check bin/skills.js"
+  },
+  "files": [
+    "bin",
+    "install.sh",
+    "skills",
+    "skills.json",
+    "README.md"
+  ]
+}

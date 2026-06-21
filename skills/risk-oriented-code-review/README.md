@@ -6,6 +6,47 @@
 
 > 这段代码现在看起来没问题，但以后会不会变成坑？
 
+
+## 安装
+
+使用 npx 安装当前包内置 skill：
+
+```bash
+npx skills add risk-oriented-code-review
+```
+
+从仓库根目录执行：
+
+```bash
+./install.sh risk-oriented-code-review
+```
+
+默认会安装到 Codex / Cloud 兼容的 skills 目录：
+
+1. 如果设置了 `SKILLS_DIR`，安装到 `$SKILLS_DIR/risk-oriented-code-review`
+2. 否则如果设置了 `CODEX_HOME`，安装到 `$CODEX_HOME/skills/risk-oriented-code-review`
+3. 否则安装到 `~/.codex/skills/risk-oriented-code-review`
+
+安装到自定义目录：
+
+```bash
+SKILLS_DIR=/path/to/skills ./install.sh risk-oriented-code-review
+```
+
+覆盖已安装版本：
+
+```bash
+npx skills add risk-oriented-code-review --force
+```
+
+或在本地仓库中执行：
+
+```bash
+./install.sh risk-oriented-code-review --force
+```
+
+在 Cloud 或远程环境中，优先使用 `npx skills add risk-oriented-code-review` 安装当前包内置 skill。安装后，如果环境没有自动发现新 skill，请重启当前 Codex / Cloud session。
+
 ## 适用场景
 
 适合在以下阶段使用：

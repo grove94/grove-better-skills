@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "skills": [
+    {
+      "name": "risk-oriented-code-review",
+      "description": "Second-layer code review focused on hidden side effects, compatibility breaks, boundary cases, performance, security, tests, and maintenance risk.",
+      "path": "skills/risk-oriented-code-review",
+      "entry": "skills/risk-oriented-code-review/SKILL.md",
+      "version": "0.1.0",
+      "tags": ["code-review", "risk-analysis", "codex"],
+      "installable": true
+    }
+  ]
+}
