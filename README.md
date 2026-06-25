@@ -193,6 +193,7 @@ Use $clone-website to rebuild https://example.com as a pixel-perfect Next.js clo
 | --- | --- | --- | --- | --- |
 | `native-feel-cross-platform-desktop` | [`yetone/native-feel-skill`](https://github.com/yetone/native-feel-skill) | 跨平台桌面应用、系统 WebView、原生体验、typed IPC、Raycast 风格架构和发布前体验审计 | `npx skills add yetone/native-feel-skill -g` | [`third-party-skills/native-feel-cross-platform-desktop.md`](third-party-skills/native-feel-cross-platform-desktop.md) |
 | `ponytail` | [`DietrichGebert/ponytail`](https://github.com/DietrichGebert/ponytail) | YAGNI、最小正确 diff、复用已有实现、标准库/平台原生优先、过度工程 review/audit | `codex plugin marketplace add DietrichGebert/ponytail` | [`third-party-skills/ponytail.md`](third-party-skills/ponytail.md) |
+| `reverse-skill` | [`zhaoxuya520/reverse-skill`](https://github.com/zhaoxuya520/reverse-skill) | 授权逆向、安全研究、CTF、APK/二进制/JS 分析、工具链路由和报告生成 | `git clone https://github.com/zhaoxuya520/reverse-skill.git` | [`third-party-skills/reverse-skill.md`](third-party-skills/reverse-skill.md) |
 
 ## 机器可读索引
 

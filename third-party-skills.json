@@ -46,6 +46,31 @@
       "relationshipToFirstPartySkills": "Complements risk-oriented-code-review by focusing on over-engineering and unnecessary complexity rather than correctness, security, or compatibility risk; useful as a third-party candidate for skill-recommender.",
       "installable": true,
       "installCommand": "codex plugin marketplace add DietrichGebert/ponytail"
+    },
+    {
+      "name": "reverse-skill",
+      "description": "Cybersecurity skill router and tool-orchestration pack for authorized reverse engineering, penetration testing, CTF, APK/binary/JS analysis, firmware work, report generation, and field-journal based knowledge reuse.",
+      "repository": "https://github.com/zhaoxuya520/reverse-skill",
+      "record": "third-party-skills/reverse-skill.md",
+      "entry": "skills/SKILL.md",
+      "tags": [
+        "reverse-engineering",
+        "security-research",
+        "authorized-pentest",
+        "ctf",
+        "apk-analysis",
+        "binary-analysis",
+        "tool-orchestration",
+        "skill-router"
+      ],
+      "recommendedFor": [
+        "Routing authorized reverse-engineering, CTF, APK, binary, frontend JS, packet-capture, firmware, and security-testing tasks to the right workflow",
+        "Bootstrapping or checking local security tooling such as jadx, apktool, Frida, radare2, IDA-related tooling, BurpSuite integrations, and browser automation",
+        "Generating security analysis reports, attack-path diagrams, CTF writeups, and reusable field-journal notes after authorized work"
+      ],
+      "relationshipToFirstPartySkills": "Complements skill-recommender as a third-party candidate for authorized security and reverse-engineering workflows; it is broader and more toolchain-oriented than risk-oriented-code-review.",
+      "installable": true,
+      "installCommand": "git clone https://github.com/zhaoxuya520/reverse-skill.git"
     }
   ]
 }
