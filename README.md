@@ -13,6 +13,7 @@
 .
 ├── skills/                         # 自研、可安装的 Skills
 │   ├── clone-website/
+│   ├── debugging-webpage-anomalies/
 │   ├── risk-oriented-code-review/
 │   └── skill-recommender/
 ├── third-party-skills/              # 第三方 Skills 的记录、评测和安装说明
@@ -59,6 +60,7 @@ npx skills@latest add grove94/grove-better-skills
 ```bash
 npx skills@latest add grove94/grove-better-skills clone-website
 npx skills@latest add grove94/grove-better-skills risk-oriented-code-review
+npx skills@latest add grove94/grove-better-skills debugging-webpage-anomalies
 npx skills@latest add grove94/grove-better-skills skill-recommender
 ```
 
@@ -86,6 +88,7 @@ npx skills@latest add grove94/grove-better-skills --dir /path/to/skills
 ```bash
 ./install.sh clone-website
 ./install.sh risk-oriented-code-review
+./install.sh debugging-webpage-anomalies
 ./install.sh skill-recommender
 ```
 
@@ -169,6 +172,25 @@ Use $clone-website to rebuild https://example.com as a pixel-perfect Next.js clo
 - 你希望得到的输出
 - 自研 Skills 与第三方 Skills 的匹配度
 - 每个推荐的 Skill 名称、具体作用和推荐理由
+
+### 4. Debugging Webpage Anomalies
+
+路径：[`skills/debugging-webpage-anomalies`](skills/debugging-webpage-anomalies)
+
+用途：定位网页异常的根因，包括 OOM、CPU 打满、长任务、GC 抖动、React 重复渲染/更新循环、JS heap 增长、DOM 数量异常、detached DOM、长文本节点、大字符串、ArrayBuffer/Blob 内存、layout/paint 卡顿和 worker 异常。
+
+适合场景：
+
+- 页面卡死、崩溃、out of memory 或 CPU 长时间占满
+- DevTools profile 或 heap snapshot 显示异常，但还不能确认根因
+- 需要区分 JS 热路径、React update loop、内存泄漏、DOM 泄漏、文本膨胀、二进制内存和渲染瓶颈
+- 希望输出带证据链的诊断结论，而不是泛泛性能优化建议
+
+推荐输入：
+
+```text
+Use $debugging-webpage-anomalies to diagnose why this webpage hits OOM or maxes out CPU.
+```
 
 ## 第三方 Skills 记录方式
 

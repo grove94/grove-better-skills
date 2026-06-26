@@ -1,0 +1,4 @@
+interface:
+  display_name: "Debug Webpage Anomalies"
+  short_description: "Diagnose webpage OOM and CPU issues"
+  default_prompt: "Use $debugging-webpage-anomalies to diagnose why this webpage is hitting OOM, high CPU, DOM growth, or long-task failures."

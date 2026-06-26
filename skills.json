@@ -30,6 +30,21 @@
       "installable": true
     },
     {
+      "name": "debugging-webpage-anomalies",
+      "description": "Diagnose browser tabs and web apps with OOM, high CPU, long tasks, excessive GC, React render/update loops, JS heap growth, DOM growth, detached DOM, huge strings, ArrayBuffer memory, layout stalls, paint stalls, or worker spikes.",
+      "path": "skills/debugging-webpage-anomalies",
+      "entry": "skills/debugging-webpage-anomalies/SKILL.md",
+      "version": "0.1.0",
+      "tags": [
+        "frontend-debugging",
+        "browser-performance",
+        "memory-leak",
+        "devtools",
+        "codex"
+      ],
+      "installable": true
+    },
+    {
       "name": "skill-recommender",
       "description": "Recommend the best-matching Skill from this repository's first-party Skills and recorded third-party Skills based on the user's current scenario. Designed for use with /recommend.",
       "path": "skills/skill-recommender",
